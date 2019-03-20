@@ -1,0 +1,33 @@
+*{margin: 0;padding: 0;
+}
+body{
+	font-family: Rubik,Arial,Helvetica,sans-serif;
+	background: #f5f5f5 !important;
+}
+h2{
+	font-family: "Montserrat",sans-serif;
+}
+
+a{
+	text-decoration: none;
+    font-family: "Rubik";
+}
+
+.selection-area {
+	margin-top: 30px;
+	margin-left: 123px;
+}
+#select_year, #select_make, #select_model, #select_part, #select_engine, #select_part_section {
+	padding: 8px 21px;
+	background: #F4F4F4;
+	border: 1px solid #747474;
+	font-size: 13px;
+	font-weight: normal;
+	margin-left: 4px;
+}
+
+
+
+
+
+
