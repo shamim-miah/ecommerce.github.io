@@ -1,0 +1,1610 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>woocommerce</title>
+	 <link rel="stylesheet" type="text/css" href="asset/css/style.css">
+   <link rel="stylesheet" type="text/css" href="asset/css/cras-neque.css">
+	 <link rel="stylesheet"  href="asset/bootstrap/css/bootstrap.min.css" media="all" />
+	 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Rubik:500" rel="stylesheet">
+     <link rel="stylesheet" type="text/css" href="flaticon/font/flaticon.css"> 
+     <link rel="stylesheet" href="Hover-master/css/hover.css">
+     <link rel="stylesheet" type="text/css" href="asset/css/easyzoom.min.css">
+     <!--<link rel="stylesheet" type="text/css" href="asset/css/bootstrap-magnify.min.css">-->
+     <!-- FontAwesome CSS -->
+     <link rel="stylesheet" href="asset/fonts/font-awesome/css/font-awesome.min.css" media="all" />
+     <!-- Owl Carousel -->
+     <link rel="stylesheet" href="asset/css/owl.carousel.min.css" media="all" />
+     <!-- Bootsnav Menu -->
+     <link rel="stylesheet" href="asset/css/bootsnav.css" media="all" />
+     <link rel="stylesheet" href="asset/css/animate.min.css" media="all" />
+     <script src="asset/js/jquery-3.3.1.min.js"></script>
+     <script src="asset/js/bootstrap.min.js"></script>
+     <script type="text/javascript" src="asset/js/owl.carousel.min.js"></script>
+     <script type="text/javascript" src="asset/js/main.js"></script>
+     <script type="text/javascript" src="asset/js/animate.js"></script>
+     <!--<script type="text/javascript" src="asset/js/bootstrap-magnify.min.js"></script>--->
+     <script type="text/javascript" src="asset/js/caroufedsel.js"></script>
+
+</head>
+<body>
+  <header class="fixed-nav">
+    <div class="container">
+      <div class="row header-bg">
+        <div class="menubar">
+          <a class="logo" href="#"><img src="asset/images/logo1.png"></a>
+          <nav>
+            <ul class="menu" id="menu">
+              <li class="current-menu-item home-color menu-item"><a href="index.html" class="active-home">Home<i class="fa fa-angle-down"></i></a></li>
+              <li><a href="#" class="menu-item">Shop<i class="fa fa-angle-down"></i></a></li>
+              <li><a href="#" class="menu-item">Blog<i class="fa fa-angle-down"></i></a></li>
+              <li><a href="#" class="menu-item">Pages<i class="fa fa-angle-down"></i></a></li>
+              <li><a href="#" class="menu-item">Portfolio</a></li>
+              <li><a href="#" class="menu-item">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+            
+  <section class="post-content col-sm-12">
+
+    <div class="container">
+      <div class="row">
+        <div class="inner-menu">
+      <nav>
+        <ul>
+          <li><a href="#"><span class="home-icon"><i class="fa fa-home"></i></span>Home</span></a><span class="fa fa-chevron-right"></li>
+          <li><a href="#">Vegetable</a><span class="fa fa-chevron-right"></span></li>
+          <li><a href="#">Fish & Meat</a></li>
+        </ul>
+      </nav>
+    </div>
+      </div>
+    </div>
+
+    
+
+    
+  <div class="product-page">
+      <script type="text/javascript">
+  $(function(){
+
+  $('.example').easyZoom({
+    width: 300, // default: 400
+  });
+
+});
+
+  $(function(){
+
+  $('.example').easyZoom({
+    position: 'left' // default: right
+  });
+
+});
+
+  $(function(){
+
+  $('.example').easyZoom({
+    distance: 10 // default: 20px
+  });
+
+});
+
+  $(function(){
+
+  $('.example').easyZoom({
+    opacity: 0.7
+  });
+
+});
+</script>
+    <script>
+      $(document).ready(function(){
+        $('.img_change1').click(function(){
+          $('.img_1_1').attr('src','asset/images/product09-350x350.jpg');
+          $('.img1_1_change').attr('src','asset/images/product09-350x350.jpg');
+          $('.img_1_2,.img1_2_change').attr('src','asset/images/product06-350x350.jpg');
+          $('.img_1_3,.img1_3_change').attr('src','asset/images/product07-350x350.jpg');
+          $('.img_1_4,.img1_4_change').attr('src','asset/images/product12-350x350.jpg');
+          $('.img_1_5,.img1_5_change').attr('src','asset/images/product03-350x350.jpg');
+          $('.img_1_6,.img1_6_change').attr('src','asset/images/product11-350x350.jpg');
+          $('.img_1_7,.img1_7_change').attr('src','asset/images/product08-350x350.jpg');
+          
+        });
+        var clicked=false;
+          $('.img_1_2,.img_1_3,.img_1_4,.img_1_5,.img_1_6,.img_1_7').click(function(){
+
+            if(!clicked){
+              $('.img_change1').click(function(){
+                $('.img_1_1').attr('src','asset/images/product09-350x350.jpg');
+                $('.img1_1_change').attr('src','asset/images/product09-350x350.jpg');
+                $('.ses1').addClass('active');
+                  $('.ses1').siblings().removeClass('active');
+              })
+            }
+          })
+       $('.img_change2').click(function(){
+          $('.img_1_1').attr('src','asset/images/product06-350x350.jpg');
+          $('.img1_1_change').attr('src','asset/images/product06-350x350.jpg');
+          $('.img_1_2,.img1_2_change').attr('src','asset/images/product01-350x350.jpg');
+          $('.img_1_3,.img1_3_change').attr('src','asset/images/product02-350x350.jpg');
+          $('.img_1_4,.img1_4_change').attr('src','asset/images/product04-350x350.jpg');
+          $('.img_1_5,.img1_5_change').attr('src','asset/images/product13-350x350.jpg');
+          $('.img_1_6,.img1_6_change').attr('src','asset/images/product10-350x350.jpg');
+          $('.img_1_7,.img1_7_change').attr('src','asset/images/product05-350x350.jpg');
+        });
+       var clicked=false;
+          $('.img_1_2,.img_1_3,.img_1_4,.img_1_5,.img_1_6,.img_1_7').click(function(){
+
+            if(!clicked){
+              $('.img_change2').click(function(){
+                $('.img_1_1').attr('src','asset/images/product06-350x350.jpg');
+                $('.img1_1_change').attr('src','asset/images/product06-350x350.jpg');
+                $('.ses1').addClass('active');
+                  $('.ses1').siblings().removeClass('active');
+              })
+            }
+          })
+        $('.img_change3').click(function(){
+          $('.img_1_1').attr('src','asset/images/product17-350x350.jpg');
+          $('.img1_1_change').attr('src','asset/images/product17-350x350.jpg');
+          $('.img_1_2,.img1_2_change').attr('src','asset/images/product15-350x350.jpg');
+          $('.img_1_3,.img1_3_change').attr('src','asset/images/product20-350x350.jpg');
+          $('.img_1_4,.img1_4_change').attr('src','asset/images/product19-350x350.jpg');
+          $('.img_1_5,.img1_5_change').attr('src','asset/images/product21-350x350.jpg');
+          $('.img_1_6,.img1_6_change').attr('src','asset/images/product23-350x350.jpg');
+          $('.img_1_7,.img1_7_change').attr('src','asset/images/product18-350x350.jpg');
+      });
+        var clicked=false;
+          $('.img_1_2,.img_1_3,.img_1_4,.img_1_5,.img_1_6,.img_1_7').click(function(){
+
+            if(!clicked){
+              $('.img_change3').click(function(){
+                $('.img_1_1').attr('src','asset/images/product17-350x350.jpg');
+                $('.img1_1_change').attr('src','asset/images/product17-350x350.jpg');
+                $('.ses1').addClass('active');
+                  $('.ses1').siblings().removeClass('active');
+              })
+            }
+          })
+        $('.img_change4').click(function(){
+          $('.img_1_1').attr('src','asset/images/product05-350x350.jpg');
+          $('.img1_1_change').attr('src','asset/images/product05-350x350.jpg');
+          $('.img_1_2,.img1_2_change').attr('src','asset/images/product10-350x350.jpg');
+          $('.img_1_3,.img1_3_change').attr('src','asset/images/product08-350x350.jpg');
+          $('.img_1_4,.img1_4_change').attr('src','asset/images/product16-350x350.jpg');
+          $('.img_1_5,.img1_5_change').attr('src','asset/images/product13-350x350.jpg');
+          $('.img_1_6,.img1_6_change').attr('src','asset/images/product01-350x350.jpg');
+          $('.img_1_7,.img1_7_change').attr('src','asset/images/product02-350x350.jpg');
+      });
+        var clicked=false;
+          $('.img_1_2,.img_1_3,.img_1_4,.img_1_5,.img_1_6,.img_1_7').click(function(){
+
+            if(!clicked){
+              $('.img_change4').click(function(){
+                $('.img_1_1').attr('src','asset/images/product05-350x350.jpg');
+                $('.img1_1_change').attr('src','asset/images/product05-350x350.jpg');
+                $('.ses1').addClass('active');
+                  $('.ses1').siblings().removeClass('active');
+              })
+            }
+          })
+        $('.upsell1').click(function(){
+           $('.img_1_1').attr('src','asset/images/product04-350x350.jpg');
+          $('.img1_1_change').attr('src','asset/images/product04-350x350.jpg');
+          $('.img_1_2,.img1_2_change').attr('src','asset/images/product07-350x350.jpg');
+          $('.img_1_3,.img1_3_change').attr('src','asset/images/product09-350x350.jpg');
+          $('.img_1_4,.img1_4_change').attr('src','asset/images/product19-350x350.jpg');
+          $('.img_1_5,.img1_5_change').attr('src','asset/images/product26-350x350.jpg');
+          $('.img_1_6,.img1_6_change').attr('src','asset/images/product03-350x350.jpg');
+          $('.img_1_7,.img1_7_change').attr('src','asset/images/product12-350x350.jpg');
+      });
+        var clicked=false;
+          $('.img_1_2,.img_1_3,.img_1_4,.img_1_5,.img_1_6,.img_1_7').click(function(){
+
+            if(!clicked){
+              $('.upsell1').click(function(){
+                $('.img_1_1').attr('src','asset/images/product04-350x350.jpg');
+                $('.img1_1_change').attr('src','asset/images/product04-350x350.jpg');
+                $('.ses1').addClass('active');
+                  $('.ses1').siblings().removeClass('active');
+              })
+            }
+          })
+        $('.upsell2').click(function(){
+           $('.img_1_1').attr('src','asset/images/product14-350x350.jpg');
+          $('.img1_1_change').attr('src','asset/images/product14-350x350.jpg');
+          $('.img_1_2,.img1_2_change').attr('src','asset/images/product11-350x350.jpg');
+          $('.img_1_3,.img1_3_change').attr('src','asset/images/product18-350x350.jpg');
+          $('.img_1_4,.img1_4_change').attr('src','asset/images/product21-350x350.jpg');
+          $('.img_1_5,.img1_5_change').attr('src','asset/images/product20-350x350.jpg');
+          $('.img_1_6,.img1_6_change').attr('src','asset/images/product04-350x350.jpg');
+          $('.img_1_7,.img1_7_change').attr('src','asset/images/product05-350x350.jpg');
+      });
+        var clicked=false;
+          $('.img_1_2,.img_1_3,.img_1_4,.img_1_5,.img_1_6,.img_1_7').click(function(){
+
+            if(!clicked){
+              $('.upsell2').click(function(){
+                $('.img_1_1').attr('src','asset/images/product14-350x350.jpg');
+                $('.img1_1_change').attr('src','asset/images/product14-350x350.jpg');
+                $('.ses1').addClass('active');
+                  $('.ses1').siblings().removeClass('active');
+              })
+            }
+          })
+          $('.upsell3').click(function(){
+          $('.img_1_1').attr('src','asset/images/product03-350x350.jpg');
+          $('.img1_1_change').attr('src','asset/images/product03-350x350.jpg');
+          $('.img_1_2,.img1_2_change').attr('src','asset/images/product13-350x350.jpg');
+          $('.img_1_3,.img1_3_change').attr('src','asset/images/product10-350x350.jpg');
+          $('.img_1_4,.img1_4_change').attr('src','asset/images/product06-350x350.jpg');
+          $('.img_1_5,.img1_5_change').attr('src','asset/images/product12-350x350.jpg');
+          $('.img_1_6,.img1_6_change').attr('src','asset/images/product20-350x350.jpg');
+          $('.img_1_7,.img1_7_change').attr('src','asset/images/product07-350x350.jpg');
+      });
+        var clicked=false;
+          $('.img_1_2,.img_1_3,.img_1_4,.img_1_5,.img_1_6,.img_1_7').click(function(){
+
+            if(!clicked){
+              $('.upsell3').click(function(){
+                $('.img_1_1').attr('src','asset/images/product03-350x350.jpg');
+                $('.img1_1_change').attr('src','asset/images/product03-350x350.jpg');
+                $('.ses1').addClass('active');
+                  $('.ses1').siblings().removeClass('active');
+              })
+            }
+          })
+          $('.upsell4').click(function(){
+          $('.img_1_1').attr('src','asset/images/product13-350x350.jpg');
+          $('.img1_1_change').attr('src','asset/images/product13-350x350.jpg');
+          $('.img_1_2,.img1_2_change').attr('src','asset/images/product05-350x350.jpg');
+          $('.img_1_3,.img1_3_change').attr('src','asset/images/product10-350x350.jpg');
+          $('.img_1_4,.img1_4_change').attr('src','asset/images/product16-350x350.jpg');
+          $('.img_1_5,.img1_5_change').attr('src','asset/images/product01-350x350.jpg');
+          $('.img_1_6,.img1_6_change').attr('src','asset/images/product02-350x350.jpg');
+          $('.img_1_7,.img1_7_change').attr('src','asset/images/product04-350x350.jpg');
+      });
+        var clicked=false;
+          $('.img_1_2,.img_1_3,.img_1_4,.img_1_5,.img_1_6,.img_1_7').click(function(){
+
+            if(!clicked){
+              $('.upsell4').click(function(){
+                $('.img_1_1').attr('src','asset/images/product13-350x350.jpg');
+                $('.img1_1_change').attr('src','asset/images/product13-350x350.jpg');
+                $('.ses1').addClass('active');
+                  $('.ses1').siblings().removeClass('active');
+              })
+            }
+          })
+
+        
+        
+      })
+    </script>
+    
+    
+    <!--<script>
+      $(document).ready(function(){
+        $('.img_change1').click(function(){
+          $('.img_1_1').attr('src','asset/images/product04-350x350.jpg');
+          $('.img1_1_change').attr('src','asset/images/product04-350x350.jpg');
+
+      });
+        $('.img_change2').click(function(){
+          $('.img_1_1').attr('src','asset/images/product05-350x350.jpg');
+          $('.img1_1_change').attr('src','asset/images/product05-350x350.jpg');
+        });
+
+        $('.img_change4').click(function(){
+          $('.img_1_1').attr('src','asset/images/product06-350x350.jpg');
+          $('.img1_1_change').attr('src','asset/images/product06-350x350.jpg');
+        })
+
+        /*<!===========UPSELL=================>*/
+        $('.upsell1').click(function(){
+          $('.img_1_1').attr('src','asset/images/product07-350x350.jpg');
+          $('.img1_1_change').attr('src','asset/images/product07-350x350.jpg');
+        })
+
+        $('.upsell2').click(function(){
+          $('.img_1_1').attr('src','asset/images/product08-350x350.jpg');
+          $('.img1_1_change').attr('src','asset/images/product08-350x350.jpg');
+        })
+
+        $('.upsell3').click(function(){
+          $('.img_1_1').attr('src','asset/images/product09-350x350.jpg');
+          $('.img1_1_change').attr('src','asset/images/product09-350x350.jpg');
+        })
+
+        $('.upsell4').click(function(){
+          $('.img_1_1').attr('src','asset/images/product03-350x350.jpg');
+          $('.img1_1_change').attr('src','asset/images/product03-350x350.jpg');
+        })
+        
+      })
+    </script>-->
+     <div class="product-view">
+       <div class="container">
+        <div class="row">
+          <div class="product-card-slider">
+            <div class="product_item">
+              <div class="product-contents col-sm-12">
+           <div class="col-lg-6">
+             <div class="tab-content">
+              <div class="images-thumbnail tab-pane ses1 active" id="images-01">
+                <div class="single-image" id="imag3">
+                 <a href="#">
+                  <center>
+                    <div class="easyzoom-01 easyzoom example">
+                    <img class="img1_1_change" src="asset/images/product08-350x350.jpg">
+                  </div>
+                </center> 
+                  
+                </a>
+                </div>
+             </div>
+             <div class="images-thumbnail tab-pane ses2" id="images-02">
+                <div class="single-image">
+                  <center><a href="#">
+                    <div class="easyzoom-02 easyzoom example">
+                      <img class="img1_2_change" src="asset/images/product06-350x350.jpg">
+                    </div>  
+                  </a></center>
+                </div>
+             </div>
+             <div class="images-thumbnail tab-pane ses3" id="images-03">
+                <div class="single-image">
+                  <center><a href="#">
+                    <div class="easyzoom-03 easyzoom example">
+                      <img class="img1_3_change"src="asset/images/product07-350x350.jpg">
+                    </div>  
+                  </a></center>
+                </div>
+             </div>
+             <div class="images-thumbnail tab-pane ses4" id="images-04">
+                <div class="single-image">
+                  <center><a href="#">
+                    <div class="easyzoom-04 easyzoom example">
+                       <img class="img1_4_change" src="asset/images/product12-350x350.jpg"><!----data-toggle="magnify"------>
+                    </div>
+                  </a></center>
+                </div>
+             </div>
+             <div class="images-thumbnail tab-pane ses5" id="images-05">
+                <div class="single-image">
+                  <center><a href="#">
+                    <div class="easyzoom-05 easyzoom example">
+                       <img class="img1_5_change" src="asset/images/product03-350x350.jpg">
+                    </div>
+                  </a></center>
+                </div>
+             </div>
+             <div class="images-thumbnail tab-pane ses6" id="images-06">
+                <div class="single-image">
+                  <center><a href="#">
+                    <div class="easyzoom-06 easyzoom example">
+                       <img class="img1_6_change" src="asset/images/product11-350x350.jpg">
+                    </div>
+                  </a></center>
+                </div>
+             </div>
+             <div class="images-thumbnail tab-pane ses7" id="images-07">
+                <div class="single-image">
+                  <center><a href="#">
+                    <div class="easyzoom-07 easyzoom example">
+                      <img class="img1_7_change" src="asset/images/product09-350x350.jpg">
+                    </div> 
+                  </a></center>
+                </div>
+             </div>
+
+             <script>
+               $(document).ready(function(){
+                $('.image1_1').on('click',function(){
+                  $('.ses1').addClass('active');
+                  $('.ses1').siblings().removeClass('active');
+
+                });
+                $('.image1_2').on('click',function(){
+                  $('.ses2').addClass('active');
+                  $('.ses2').siblings().removeClass('active');
+
+                });
+                $('.image1_3').on('click',function(){
+                  $('.ses3').addClass('active');
+                  $('.ses3').siblings().removeClass('active');
+
+                });
+                $('.image1_4').on('click',function(){
+                  $('.ses4').addClass('active');
+                  $('.ses4').siblings().removeClass('active');
+
+                });
+                $('.image1_5').on('click',function(){
+                  $('.ses5').addClass('active');
+                  $('.ses5').siblings().removeClass('active');
+                });
+
+                $('.image1_6').on('click',function(){
+                  $('.ses6').addClass('active');
+                  $('.ses6').siblings().removeClass('active');
+
+                });
+                $('.image1_7').on('click',function(){
+                  $('.ses7').addClass('active');
+                  $('.ses7').siblings().removeClass('active');
+
+                });
+               })
+             </script>
+            </div>
+             <div class="thumbnails-slider">
+               <div class="thumbnails-inner">
+                 <div class="carousel-wrapper">
+                   <ul class="thumbnail-slider">
+                     <li><a href="#" class="image1_1"><img class="img_1_1" src="asset/images/product08-350x350.jpg"></a></li>
+                     <li><a href="#" class="image1_2"><img class="img_1_2" src="asset/images/product06-350x350.jpg"></a></li>
+                     <li><a href="#" class="image1_3"><img class="img_1_3" src="asset/images/product07-350x350.jpg"></a></li>
+                     <li><a href="#" class="image1_4"><img class="img_1_4" src="asset/images/product12-350x350.jpg"></a></li>
+                     <li><a href="#" class="image1_5"><img class="img_1_5" src="asset/images/product03-350x350.jpg"></a></li>
+                     <li><a href="#" class="image1_6"><img class="img_1_6" src="asset/images/product11-350x350.jpg"></a></li>
+                     <li><a href="#" class="image1_7"><img class="img_1_7" src="asset/images/product09-350x350.jpg"></a></li>
+                   </ul>
+                 </div>
+               </div>
+             </div>
+           </div>
+           <div class="col-lg-6">
+             <div class="summery single-product-info">
+               <h1 class="product-tile">Auctor gravida pellentesque</h1>
+               <div class="product-rating">
+                 <p class="rate1 rate-color"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star" style="color: #E1E1E1;"></i></p>
+               </div>
+               <div class="price-box">
+                      <div class="price-box-inner">
+                        <del><span class="price-amount amount">
+                          <span class="price-currencysymbol">$</span>68.00
+                        </span></del>
+                        <ins><span class="price-amount amount">
+                          <span class="price-currencysymbol">$</span>60.00
+                        </span></ins>
+                      </div>
+                    </div>
+               <div class="woocommerce-product-detais">
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco,Proin lectus ipsum, gravida et mattis vulputate, tristique ut lectus</p>
+               </div>
+               <div class="order-quantity">
+                 <form>
+                   <div class="quantity">
+                     <input class="input-text qtv" type="number" min="1" max="" size="4" inputmode="numeric" value="1" step="1">
+                   </div>
+                 </form>
+               </div>
+               <div class="order-btn order-block">
+                  <a href="#" class="btn"><span class="flaticon-supermarket supermarket"></span>ADD TO CARD</a>       
+                </div>
+                <div class="wishlist_compare">
+                  <div class="wishlist">
+                    <a href="#" class="hvr-icon-pulse tooltip2"><i class="fa fa-heart-o hvr-icon icon-01"></i><span class="tooltip-text2">Browse Wishlist</span>Brose Wishlist</a>
+                  </div>
+                  <div class="compare">
+                    <a href="#" class="hvr-icon-pulse tooltip2"><i class="fa fa-exchange hvr-icon icon-02"></i><span class="tooltip-text2">Compare</span>Compare</a>
+                  </div>
+                </div>
+                <div class="categories-01">
+                  <h4>CATEGORIES:</h4>
+                  <li><a href="#">Beans,</a></li>
+                  <li><a href="#">Eggs</a></li>
+                </div>
+                <div class="share_product">
+                  <h4>SHARE THIS PRODUCT</h4>
+                  <li><a href="#"><i class="fa fa-facebook tooltip1"><span class="tooltip-text1">Facebook</span></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter tooltip1"><span class="tooltip-text1">Twitter</span></i></a></li>
+                  <li><a href="#"><i class="fa fa-pinterest tooltip1"><span class="tooltip-text1">Pinterest</span></i></a></li>
+                  <li><a href="#"><i class="fa fa-google tooltip1"><span class="tooltip-text1">Google</span></i></a></li>
+                  <li><a href="#"><i class="fa fa-linkedin tooltip1"><span class="tooltip-text1">Linkedin</span></i></a></li>
+                </div>        
+             </div>  
+           </div>
+         </div>
+            </div>
+
+        
+
+              <div class="product_item">
+              <div class="product-contents col-sm-12">
+           <div class="col-lg-6">
+             <div class="tab-content">
+              <div class="images-thumbnail tab-pane ses2_1 active" id="images-01">
+                <div class="single-image">
+                  <a href="#">
+                    <div class="easyzoom-06 easyzoom example">
+                      <img class="img2_1_change" src="asset/images/product04-350x350.jpg">
+                    </div>    
+                  </a>
+                </div>
+             </div>
+             <div class="images-thumbnail tab-pane ses2_2" id="images-02">
+                <div class="single-image">
+                  <a href="#">
+                    <div class="easyzoom example">
+                       <img class="img2_2_change" src="asset/images/product05-350x350.jpg">
+                    </div>  
+                  </a>
+                </div>
+             </div>
+             <div class="images-thumbnail tab-pane ses2_3" id="images-03">
+                <div class="single-image">
+                  <a href="#">
+                    <div class="easyzoom example">
+                      <img class="img2_3_change" src="asset/images/product06-350x350.jpg">
+                    </div> 
+                  </a>
+                </div>
+             </div>
+             <div class="images-thumbnail tab-pane ses2_4" id="images-04">
+                <div class="single-image">
+                  <a href="#">
+                    <div class="easyzoom example">
+                      <img class="img2_4_change" src="asset/images/product07-350x350.jpg">
+                    </div>
+                  </a>
+                </div>
+             </div>
+             <div class="images-thumbnail tab-pane ses2_5" id="images-05">
+                <div class="single-image">
+                  <a href="#">
+                    <div class="easyzoom example">
+                      <img class="img2_5_change" src="asset/images/product08-350x350.jpg">
+                    </div>  
+                  </a>
+                </div>
+             </div>
+             <div class="images-thumbnail tab-pane ses2_6" id="images-06">
+                <div class="single-image">
+                  <a href="#">
+                    <div class="easyzoom example">
+                      <img class="img2_6_change" src="asset/images/product09-350x350.jpg">
+                    </div>  
+                  </a>
+                </div>
+             </div>
+             <div class="images-thumbnail tab-pane ses2_7" id="images-07">
+                <div class="single-image">
+                  <a href="#">
+                    <div class="easyzoom-07 easyzoom example">
+                      <img class="img2_7_change" src="asset/images/product03-350x350.jpg">
+                    </div>
+                    
+                  </a>
+                </div>
+             </div>
+
+             <script>
+               $(document).ready(function(){
+                $('.image2_1').on('click',function(){
+                  $('.ses2_1').addClass('active');
+                  $('.ses2_1').siblings().removeClass('active');
+
+                });
+                $('.image2_2').on('click',function(){
+                  $('.ses2_2').addClass('active');
+                  $('.ses2_2').siblings().removeClass('active');
+
+                });
+                $('.image2_3').on('click',function(){
+                  $('.ses2_3').addClass('active');
+                  $('.ses2_3').siblings().removeClass('active');
+
+                });
+                $('.image2_4').on('click',function(){
+                  $('.ses2_4').addClass('active');
+                  $('.ses2_4').siblings().removeClass('active');
+
+                });
+                $('.image2_5').on('click',function(){
+                  $('.ses2_5').addClass('active');
+                  $('.ses2_5').siblings().removeClass('active');
+
+                });
+                $('.image2_6').on('click',function(){
+                  $('.ses2_6').addClass('active');
+                  $('.ses2_6').siblings().removeClass('active');
+
+                });
+                $('.image2_7').on('click',function(){
+                  $('.ses2_7').addClass('active');
+                  $('.ses2_7').siblings().removeClass('active');
+
+                });
+               })
+             </script>
+            </div>
+             <div class="thumbnails-slider">
+               <div class="thumbnails-inner">
+                 <div class="carousel-wrapper">
+                   <ul class="thumbnail-slider">
+                     <li><a href="#" class="image2_1"><img src="asset/images/product04-350x350.jpg"></a></li>
+                     <li><a href="#" class="image2_2"><img src="asset/images/product05-350x350.jpg"></a></li>
+                     <li><a href="#" class="image2_3"><img src="asset/images/product06-350x350.jpg"></a></li>
+                     <li><a href="#" class="image2_4"><img src="asset/images/product07-350x350.jpg"></a></li>
+                     <li><a href="#" class="image2_5"><img src="asset/images/product08-350x350.jpg"></a></li>
+                     <li><a href="#" class="image2_6"><img src="asset/images/product09-350x350.jpg"></a></li>
+                     <li><a href="#" class="image2_7"><img src="asset/images/product03-350x350.jpg"></a></li>
+                   </ul>
+                 </div>
+               </div>
+             </div>
+           </div>
+           <div class="col-lg-6">
+             <div class="summery single-product-info">
+               <h1 class="product-tile">Auctor gravida pellentesque</h1>
+               <div class="product-rating">
+                 <p class="rate1 rate-color"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star" style="color: #E1E1E1;"></i></p>
+               </div>
+               <div class="price-box">
+                      <div class="price-box-inner">
+                        <del><span class="price-amount amount">
+                          <span class="price-currencysymbol">$</span>68.00
+                        </span></del>
+                        <ins><span class="price-amount amount">
+                          <span class="price-currencysymbol">$</span>60.00
+                        </span></ins>
+                      </div>
+                    </div>
+               <div class="woocommerce-product-detais">
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco,Proin lectus ipsum, gravida et mattis vulputate, tristique ut lectus</p>
+               </div>
+               <div class="order-quantity">
+                 <form>
+                   <div class="quantity">
+                     <input class="input-text qtv" type="number" min="1" max="" size="4" inputmode="numeric" value="1" step="1">
+                   </div>
+                 </form>
+               </div>
+               <div class="order-btn order-block">
+                  <a href="#" class="btn"><span class="flaticon-supermarket supermarket"></span>ADD TO CARD</a>       
+                </div>
+                <div class="wishlist_compare">
+                  <div class="wishlist">
+                    <a href="#" class="hvr-icon-pulse tooltip2"><i class="fa fa-heart-o hvr-icon icon-01"></i><span class="tooltip-text2">Browse Wishlist</span>Brose Wishlist</a>
+                  </div>
+                  <div class="compare">
+                    <a href="#" class="hvr-icon-pulse tooltip2"><i class="fa fa-exchange hvr-icon icon-02"></i><span class="tooltip-text2">Compare</span>Compare</a>
+                  </div>
+                </div>
+                <div class="categories-01">
+                  <h4>CATEGORIES:</h4>
+                  <li><a href="#">Beans,</a></li>
+                  <li><a href="#">Eggs</a></li>
+                </div>
+                <div class="share_product">
+                  <h4>SHARE THIS PRODUCT</h4>
+                  <li><a href="#"><i class="fa fa-facebook tooltip1"><span class="tooltip-text1">Facebook</span></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter tooltip1"><span class="tooltip-text1">Twitter</span></i></a></li>
+                  <li><a href="#"><i class="fa fa-pinterest tooltip1"><span class="tooltip-text1">Pinterest</span></i></a></li>
+                  <li><a href="#"><i class="fa fa-google tooltip1"><span class="tooltip-text1">Google</span></i></a></li>
+                  <li><a href="#"><i class="fa fa-linkedin tooltip1"><span class="tooltip-text1">Linkedin</span></i></a></li>
+                </div>        
+             </div>  
+           </div>
+         </div>
+            </div>
+
+
+            <div class="product_item">
+              <div class="product-contents col-sm-12">
+           <div class="col-lg-6">
+             <div class="tab-content">
+              <div class="images-thumbnail tab-pane ses3_1 active" id="images-01">
+                <div class="single-image">
+                  <a href="#">
+                     <div class="easyzoom-07 easyzoom example">
+                      <img class="img3_1_change" src="asset/images/product05-350x350.jpg">
+                    </div>
+                  </a>
+                </div>
+             </div>
+             <div class="images-thumbnail tab-pane ses3_2" id="images-02">
+                <div class="single-image">
+                  <a href="#">
+                     <div class="easyzoom-07 easyzoom example">
+                      <img class="img3_2_change" src="asset/images/product06-350x350.jpg">
+                    </div>
+                  </a>
+                </div>
+             </div>
+             <div class="images-thumbnail tab-pane ses3_3" id="images-03">
+                <div class="single-image">
+                  <a href="#">
+                     <div class="easyzoom-07 easyzoom example">
+                      <img class="img3_3_change" src="asset/images/product07-350x350.jpg">
+                    </div>
+                  </a>
+                </div>
+             </div>
+             <div class="images-thumbnail tab-pane ses3_4" id="images-04">
+                <div class="single-image">
+                  <a href="#">
+                    <div class="easyzoom-07 easyzoom example">
+                      <img class="img3_4_change" src="asset/images/product08-350x350.jpg">
+                    </div>
+                  </a>
+                </div>
+             </div>
+             <div class="images-thumbnail tab-pane ses3_5" id="images-05">
+                <div class="single-image">
+                  <a href="#">
+                     <div class="easyzoom-07 easyzoom example">
+                      <img class="img3_5_change" src="asset/images/product09-350x350.jpg">
+                    </div>
+                  </a>
+                </div>
+             </div>
+             <div class="images-thumbnail tab-pane ses3_6" id="images-06">
+                <div class="single-image">
+                  <a href="#">
+                     <div class="easyzoom-07 easyzoom example">
+                      <img class="img3_6_change" src="asset/images/product03-350x350.jpg">
+                    </div>
+                  </a>
+                </div>
+             </div>
+             <div class="images-thumbnail tab-pane ses3_7" id="images-07">
+                <div class="single-image">
+                  <a href="#">
+                     <div class="easyzoom-07 easyzoom example">
+                      <img class="img3_7_change" src="asset/images/product04-350x350.jpg">
+                    </div>
+                  </a>
+                </div>
+             </div>
+
+             <script>
+               $(document).ready(function(){
+                $('.image3_1').on('click',function(){
+                  $('.ses3_1').addClass('active');
+                  $('.ses3_1').siblings().removeClass('active');
+
+                });
+                $('.image3_2').on('click',function(){
+                  $('.ses3_2').addClass('active');
+                  $('.ses3_2').siblings().removeClass('active');
+
+                });
+                $('.image3_3').on('click',function(){
+                  $('.ses3_3').addClass('active');
+                  $('.ses3_3').siblings().removeClass('active');
+
+                });
+                $('.image3_4').on('click',function(){
+                  $('.ses3_4').addClass('active');
+                  $('.ses3_4').siblings().removeClass('active');
+
+                });
+                $('.image3_5').on('click',function(){
+                  $('.ses3_5').addClass('active');
+                  $('.ses3_5').siblings().removeClass('active');
+
+                });
+                $('.image3_6').on('click',function(){
+                  $('.ses3_6').addClass('active');
+                  $('.ses3_6').siblings().removeClass('active');
+
+                });
+                $('.image3_7').on('click',function(){
+                  $('.ses3_7').addClass('active');
+                  $('.ses3_7').siblings().removeClass('active');
+
+                });
+               })
+             </script>
+            </div>
+             <div class="thumbnails-slider">
+               <div class="thumbnails-inner">
+                 <div class="carousel-wrapper">
+                   <ul class="thumbnail-slider">
+                     <li><a href="#" class="image3-1"><img src="asset/images/product05-350x350.jpg"></a></li>
+                     <li><a href="#" class="image3_2"><img src="asset/images/product06-350x350.jpg"></a></li>
+                     <li><a href="#" class="image3_3"><img src="asset/images/product07-350x350.jpg"></a></li>
+                     <li><a href="#" class="image3_4"><img src="asset/images/product08-350x350.jpg"></a></li>
+                     <li><a href="#" class="image3_5"><img src="asset/images/product09-350x350.jpg"></a></li>
+                     <li><a href="#" class="image3_6"><img src="asset/images/product03-350x350.jpg"></a></li>
+                     <li><a href="#" class="image3_7"><img src="asset/images/product04-350x350.jpg"></a></li>
+                   </ul>
+                 </div>
+               </div>
+             </div>
+           </div>
+           <div class="col-lg-6">
+             <div class="summery single-product-info">
+               <h1 class="product-tile">Auctor gravida pellentesque</h1>
+               <div class="product-rating">
+                 <p class="rate1 rate-color"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star" style="color: #E1E1E1;"></i></p>
+               </div>
+               <div class="price-box">
+                      <div class="price-box-inner">
+                        <del><span class="price-amount amount">
+                          <span class="price-currencysymbol">$</span>68.00
+                        </span></del>
+                        <ins><span class="price-amount amount">
+                          <span class="price-currencysymbol">$</span>60.00
+                        </span></ins>
+                      </div>
+                    </div>
+               <div class="woocommerce-product-detais">
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco,Proin lectus ipsum, gravida et mattis vulputate, tristique ut lectus</p>
+               </div>
+               <div class="order-quantity">
+                 <form>
+                   <div class="quantity">
+                     <input class="input-text qtv" type="number" min="1" max="" size="4" inputmode="numeric" value="1" step="1">
+                   </div>
+                 </form>
+               </div>
+               <div class="order-btn order-block">
+                  <a href="#" class="btn"><span class="flaticon-supermarket supermarket"></span>ADD TO CARD</a>       
+                </div>
+                <div class="wishlist_compare">
+                  <div class="wishlist">
+                    <a href="#" class="hvr-icon-pulse tooltip2"><i class="fa fa-heart-o hvr-icon icon-01"></i><span class="tooltip-text2">Browse Wishlist</span>Brose Wishlist</a>
+                  </div>
+                  <div class="compare">
+                    <a href="#" class="hvr-icon-pulse tooltip2"><i class="fa fa-exchange hvr-icon icon-02"></i><span class="tooltip-text2">Compare</span>Compare</a>
+                  </div>
+                </div>
+                <div class="categories-01">
+                  <h4>CATEGORIES:</h4>
+                  <li><a href="#">Beans,</a></li>
+                  <li><a href="#">Eggs</a></li>
+                </div>
+                <div class="share_product">
+                  <h4>SHARE THIS PRODUCT</h4>
+                  <li><a href="#"><i class="fa fa-facebook tooltip1"><span class="tooltip-text1">Facebook</span></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter tooltip1"><span class="tooltip-text1">Twitter</span></i></a></li>
+                  <li><a href="#"><i class="fa fa-pinterest tooltip1"><span class="tooltip-text1">Pinterest</span></i></a></li>
+                  <li><a href="#"><i class="fa fa-google tooltip1"><span class="tooltip-text1">Google</span></i></a></li>
+                  <li><a href="#"><i class="fa fa-linkedin tooltip1"><span class="tooltip-text1">Linkedin</span></i></a></li>
+                </div>        
+             </div>  
+           </div>
+         </div>
+            </div>
+
+            <div class="product_item">
+              <div class="product-contents col-sm-12">
+           <div class="col-lg-6">
+             <div class="tab-content">
+              <div class="images-thumbnail tab-pane ses4_1 active" id="images-01">
+                <div class="single-image">
+                  <a href="#">
+                     <div class="easyzoom-07 easyzoom example">
+                      <img class="img4_1_change" src="asset/images/product06-350x350.jpg">
+                    </div>
+                  </a>
+                </div>
+             </div>
+             <div class="images-thumbnail tab-pane ses4_2" id="images-02">
+                <div class="single-image">
+                  <a href="#">
+                     <div class="easyzoom-07 easyzoom example">
+                      <img class="img4_2_change" src="asset/images/product07-350x350.jpg">
+                    </div>
+                  </a>
+                </div>
+             </div>
+             <div class="images-thumbnail tab-pane ses4_3" id="images-03">
+                <div class="single-image">
+                  <a href="#">
+                     <div class="easyzoom-07 easyzoom example">
+                      <img class="img4_3_change" src="asset/images/product08-350x350.jpg">
+                    </div>
+                  </a>
+                </div>
+             </div>
+             <div class="images-thumbnail tab-pane ses4_4" id="images-04">
+                <div class="single-image">
+                  <a href="#">
+                    <div class="easyzoom-07 easyzoom example">
+                      <img class="img4_4_change" src="asset/images/product09-350x350.jpg">
+                    </div>
+                  </a>  
+                </div>
+             </div>
+             <div class="images-thumbnail tab-pane ses4_5" id="images-05">
+                <div class="single-image">
+                  <a href="#">
+                    <div class="easyzoom-07 easyzoom example">
+                      <img class="img4_5_change" src="asset/images/product03-350x350.jpg">
+                    </div>
+                  </a>
+                </div>
+             </div>
+             <div class="images-thumbnail tab-pane ses4_6" id="images-06">
+                <div class="single-image">
+                  <a href="#">
+                   <div class="easyzoom-07 easyzoom example">
+                      <img class="img4_6_change" src="asset/images/product04-350x350.jpg">
+                    </div>
+                  </a>
+                </div>
+             </div>
+             <div class="images-thumbnail tab-pane ses4_7" id="images-07">
+                <div class="single-image">
+                  <a href="#">
+                    <div class="easyzoom-07 easyzoom example">
+                      <img class="img4_7_change" src="asset/images/product05-350x350.jpg">
+                    </div>
+                  </a>
+                </div>
+             </div>
+
+             <script>
+               $(document).ready(function(){
+                $('.image4_1').on('click',function(){
+                  $('.ses4_1').addClass('active');
+                  $('.ses4_1').siblings().removeClass('active');
+
+                });
+                $('.image4_2').on('click',function(){
+                  $('.ses4_2').addClass('active');
+                  $('.ses4_2').siblings().removeClass('active');
+
+                });
+                $('.image4_3').on('click',function(){
+                  $('.ses4_3').addClass('active');
+                  $('.ses4_3').siblings().removeClass('active');
+
+                });
+                $('.image4_4').on('click',function(){
+                  $('.ses4_4').addClass('active');
+                  $('.ses4_4').siblings().removeClass('active');
+
+                });
+                $('.image4_5').on('click',function(){
+                  $('.ses4_5').addClass('active');
+                  $('.ses4_5').siblings().removeClass('active');
+
+                });
+                $('.image4_6').on('click',function(){
+                  $('.ses4_6').addClass('active');
+                  $('.ses4_6').siblings().removeClass('active');
+
+                });
+                $('.image4_7').on('click',function(){
+                  $('.ses4_7').addClass('active');
+                  $('.ses4_7').siblings().removeClass('active');
+
+                });
+               })
+             </script>
+            </div>
+             <div class="thumbnails-slider">
+               <div class="thumbnails-inner">
+                 <div class="carousel-wrapper">
+                   <ul class="thumbnail-slider">
+                     <li><a href="#" class="image4_1"><img src="asset/images/product06-350x350.jpg"></a></li>
+                     <li><a href="#" class="image4_2"><img src="asset/images/product07-350x350.jpg"></a></li>
+                     <li><a href="#" class="image4_3"><img src="asset/images/product08-350x350.jpg"></a></li>
+                     <li><a href="#" class="image4_4"><img src="asset/images/product09-350x350.jpg"></a></li>
+                     <li><a href="#" class="image4_5"><img src="asset/images/product03-350x350.jpg"></a></li>
+                     <li><a href="#" class="image4_6"><img src="asset/images/product04-350x350.jpg"></a></li>
+                     <li><a href="#" class="image4_7"><img src="asset/images/product05-350x350.jpg"></a></li>
+                   </ul>
+                 </div>
+               </div>
+             </div>
+           </div>
+           <div class="col-lg-6">
+             <div class="summery single-product-info">
+               <h1 class="product-tile">Auctor gravida pellentesque</h1>
+               <div class="product-rating">
+                 <p class="rate1 rate-color"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star" style="color: #E1E1E1;"></i></p>
+               </div>
+               <div class="price-box">
+                      <div class="price-box-inner">
+                        <del><span class="price-amount amount">
+                          <span class="price-currencysymbol">$</span>68.00
+                        </span></del>
+                        <ins><span class="price-amount amount">
+                          <span class="price-currencysymbol">$</span>60.00
+                        </span></ins>
+                      </div>
+                    </div>
+               <div class="woocommerce-product-detais">
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco,Proin lectus ipsum, gravida et mattis vulputate, tristique ut lectus</p>
+               </div>
+               <div class="order-quantity">
+                 <form>
+                   <div class="quantity">
+                     <input class="input-text qtv" type="number" min="1" max="" size="4" inputmode="numeric" value="1" step="1">
+                   </div>
+                 </form>
+               </div>
+               <div class="order-btn order-block">
+                  <a href="#" class="btn"><span class="flaticon-supermarket supermarket"></span>ADD TO CARD</a>       
+                </div>
+                <div class="wishlist_compare">
+                  <div class="wishlist">
+                    <a href="#" class="hvr-icon-pulse tooltip2"><i class="fa fa-heart-o hvr-icon icon-01"></i><span class="tooltip-text2">Browse Wishlist</span>Brose Wishlist</a>
+                  </div>
+                  <div class="compare">
+                    <a href="#" class="hvr-icon-pulse tooltip2"><i class="fa fa-exchange hvr-icon icon-02"></i><span class="tooltip-text2">Compare</span>Compare</a>
+                  </div>
+                </div>
+                <div class="categories-01">
+                  <h4>CATEGORIES:</h4>
+                  <li><a href="#">Beans,</a></li>
+                  <li><a href="#">Eggs</a></li>
+                </div>
+                <div class="share_product">
+                  <h4>SHARE THIS PRODUCT</h4>
+                  <li><a href="#"><i class="fa fa-facebook tooltip1"><span class="tooltip-text1">Facebook</span></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter tooltip1"><span class="tooltip-text1">Twitter</span></i></a></li>
+                  <li><a href="#"><i class="fa fa-pinterest tooltip1"><span class="tooltip-text1">Pinterest</span></i></a></li>
+                  <li><a href="#"><i class="fa fa-google tooltip1"><span class="tooltip-text1">Google</span></i></a></li>
+                  <li><a href="#"><i class="fa fa-linkedin tooltip1"><span class="tooltip-text1">Linkedin</span></i></a></li>
+                </div>        
+             </div>  
+           </div>
+         </div>
+            </div>
+
+
+          </div>
+         
+       </div>
+       </div>
+     </div>
+   </div>
+
+
+<!----end slider of top slider for cras-neque----->
+
+   <div class="descript-review">
+     <div class="container">
+       <div class="row">
+          <div class="product-menu menu-inside">
+            <ul class="nav nav-tabs tab-list">
+              <li><a href="#description" class="active-bg tab-tilte hover-color review" data-toggle="tab">DESCRIPTION</a></li>
+              <li><a href="#review" class=" tab-tilte hover-color descrip" data-toggle="tab">REVIEWS(1)</a></li>
+              <script>
+                $(document).ready(function(){
+                  $('.descrip').on('click',function(){
+                    $('.descrip').addClass('active-bg');
+                    $('.review').removeClass('active-bg');
+                  })
+                  $('.review').on('click',function(){
+                    $('.review').addClass('active-bg');
+                    $('.descrip').removeClass('active-bg');
+                  })
+                })
+              </script>
+            </ul>
+
+            <div class="tab-content" style="margin-top: -11px;">
+              <div class="tab-pane" id="review">
+                <div class="comment desc">
+                  <ol class="commentlist">
+                    <li class="">
+                      <div class="comment-45" id="">
+                        <img src="asset/images/road-avatar-60x60.jpg" alt="">
+                        <div class="comment-text">
+                          <div class="rating-star">
+                            <p class="rate1 rate-color"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star" style="color: #E1E1E1;"></i></p>
+                          </div>
+                          <p class="meta">
+                            <strong class="meta-admin">ADMIN</strong>
+                            <span class="admin-dash">-</span>
+                            <time>September 11, 2018</time>
+                          </p>
+                          <div class="descriptaion">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius, nunc non ultrices fringilla, ipsum risus feugiat velit, a scelerisque tortor tortor at felis. Etiam varius ac magna eget lobortis. In ultricies interdum ante id accumsan. Praesent vitae ligula pulvinar magna sollicitudin feugiat at at tortor. Ut sollicitudin metus lectus, volutpat aliquet nibh finibus eu. Suspendisse porta consectetur sapien, in lobortis orci tincidunt sed.</p>
+                          </div>
+                          <div class="ribbon-5 ribbon5-5"></div>
+                        </div>
+
+                      </div>
+                    </li>
+                  </ol>
+                  <div class="review_form">
+                  <div class="comment-respond">
+                    <span class="comment-reply-title">ADD A REVIEW</span>
+                    <div class="empty-space"></div>
+                    <form action="">
+                      <p class="comment-notes"><span>Your email address will not published.</span>Required fields are marked<span class="required">*</span></p>
+                      <div class="comment-form-rating">
+                        <p><label for="rating">Your rating</label></p>
+                        <p class="stars">
+                          <span class="stars1">
+                            <i class="fa fa-star st1" id="s1"></i>
+                            <i class="fa fa-star st1" id="s2"></i>
+                            <i class="fa fa-star st1" id="s3"></i>
+                            <i class="fa fa-star st1" id="s4"></i>
+                            <i class="fa fa-star st1" id="s5"></i>
+                            <script>
+                              $(document).ready(function(){
+                                $('#s1').click(function(){
+                                  $(".st1").css("color","#afafb1");
+                                   $('#s1').css("color","#FBBF00");
+                                })
+                                $('#s2').click(function(){
+                                  $(".st1").css("color","#afafb1");
+                                   $('#s1,#s2').css("color","#FBBF00");
+                                })
+                                $('#s3').click(function(){
+                                  $(".st1").css("color","#afafb1");
+                                   $('#s1,#s2,#s3').css("color","#FBBF00");
+                                })
+                                $('#s4').click(function(){
+                                  $(".st1").css("color","#afafb1");
+                                   $('#s1,#s2,#s3,#s4').css("color","#FBBF00");
+                                })
+                                $('#s5').click(function(){
+                                  $(".st1").css("color","#afafb1");
+                                   $('#s1,#s2,#s3,#s4,#s5').css("color","#FBBF00");
+                                })
+                              })
+
+                            </script>
+                          </span>
+                        </p>
+                        <select name="rating" id="rating" style="display: none;">
+                          <option value="5">perfect</option>
+                          <option value="4">best</option>
+                          <option value="3">good</option>
+                          <option value="2">not that bad</option>
+                          <option value="2">very poor</option>
+                        </select>
+                      </div>
+                      <p class="comment-form-comment">
+                        <label for="comment">Your review<span class="required">*</span></label>
+                        <textarea name="comment" id="comment" cols="30" rows="8"></textarea>
+                      </p>
+                       <div class="comment-input">
+                         <p class="comment-form-author">
+                           <label for="author">Name<span class="required">*</span></label>
+                           <input type="text" id="author" name="author" required="">
+                         </p>
+                         <p class="comment-form-email">
+                           <label for="email">Email<span class="required">*</span></label>
+                           <input type="email" id="email" name="email" required="">
+                         </p>
+                       </div>
+                       <p class="form-submit">
+                         <input type="submit" name="submit" value="Submit" type="submit" class="btn">
+                       </p>
+                    </form>
+                  </div>
+                </div>
+                </div>
+
+
+              </div>
+              <div class="tab-pane active" id="description">
+                <div class="desc">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est tristique auctor. Donec non est at libero vulputate rutrum. Morbi ornare lectus quis justo gravida semper. Nulla tellus mi, vulputate adipiscing cursus eu, suscipit id nulla.</p>
+                  <p>Pellentesque aliquet, sem eget laoreet ultrices, ipsum metus feugiat sem, quis fermentum turpis eros eget velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam, purus eget sagittis vulputate, sapien libero hendrerit est, sed commodo augue nisi non neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, lorem et placerat vestibulum, metus nisi posuere nisl, in accumsan elit odio quis mi. Cras neque metus, consequat et blandit et, luctus a nunc. Etiam gravida vehicula tellus, in imperdiet ligula euismod eget</p>
+                </div>
+              </div>
+            </div>
+          </div>
+       </div>
+     </div>
+   </div>
+
+
+  	<div class="show-product">
+  		<div class="container">
+  			<div class="row ribbon-2">
+        <div class="seller-title">
+            <h5>RELATED PRODUCTS</h5>
+          </div>
+          <div class="ribbon-1 ribbon"></div>
+  				<div class="product-01-slider">
+  						 <div class="product product-01">
+  						 	<a href="#" class="img_change1"><img src="asset/images/product09-350x350.jpg"></a>
+                
+  						 	<a href="#" class="btn">SALE!</a>
+  						 	<div class="product-caption">
+  						 		<div class="product-inside">
+  						 			<div class="product-categories">
+  						 				<a href="#">Fast Foods, </a><a href="#">Vegetable</a>
+  						 			</div>
+  						 			<div class="product-name">
+  						 				<h2><a href="#">Cras neque honcus consectetum</a></h2>
+  						 			</div>
+  						 			<div class="price-box">
+  						 				<div class="price-box-inner">
+  						 					<del><span class="price-amount amount">
+  						 						<span class="price-currencysymbol">$</span>68.00
+  						 					</span></del>
+  						 					<ins><span class="price-amount amount">
+  						 						<span class="price-currencysymbol">$</span>60.00
+  						 					</span></ins>
+  						 				</div>
+  						 			</div>
+  						 		</div>
+  						 	</div>
+  						 	<div class="overlay">
+  						 		<div class="icon">
+  						 			<i class="fa fa-shopping-cart tooltip"><span class="tooltip-text">Add to card</span></i>
+  						 			<i class="fa fa-heart-o tooltip"><span class="tooltip-text">Add to wishlist</span></i>
+  						 			<i class="fa fa-exchange tooltip"><span class="tooltip-text">Compare</span></i>
+  						 			<i class="fa fa-search tooltip"><span class="tooltip-text">Quick View</span></i>
+  						 		</div>
+  						 	</div>
+  						 </div>
+  						 <div class="product product-01">
+  						 	<a href="#"><img class="img_change2" src="asset/images/product06-350x350.jpg"></a>
+  						 	<a href="#" class="btn">SALE!</a>
+  						 	<div class="product-caption">
+  						 		<div class="product-inside">
+  						 			<div class="product-categories">
+  						 				<a href="#">Fast Foods, </a><a href="#">Vegetable</a>
+  						 			</div>
+  						 			<div class="product-name">
+  						 				<h2><a href="#">Cras neque honcus consectetum</a></h2>
+  						 			</div>
+  						 			<div class="price-box">
+  						 				<div class="price-box-inner">
+  						 					<del><span class="price-amount amount">
+  						 						<span class="price-currencysymbol">$</span>68.00
+  						 					</span></del>
+  						 					<ins><span class="price-amount amount">
+  						 						<span class="price-currencysymbol">$</span>60.00
+  						 					</span></ins>
+  						 				</div>
+  						 			</div>
+  						 		</div>
+  						 	</div>
+  						 	<div class="overlay">
+  						 		<div class="icon">
+  						 			<i class="fa fa-shopping-cart tooltip"><span class="tooltip-text">Add to card</span></i>
+  						 			<i class="fa fa-heart-o tooltip"><span class="tooltip-text">Add to wishlist</span></i>
+  						 			<i class="fa fa-exchange tooltip"><span class="tooltip-text">Compare</span></i>
+  						 			<i class="fa fa-search tooltip"><span class="tooltip-text">Quick View</span></i>
+  						 		</div>
+  						 	</div>
+  						 </div>
+  						 <div class="product product-01">
+  						 	<a href="#"><img class="img_change3" src="asset/images/product17-350x350.jpg"></a>
+  						 	<a href="#" class="btn">SALE!</a>
+  						 	<div class="product-caption">
+  						 		<div class="product-inside">
+  						 			<div class="product-categories">
+  						 				<a href="#">Fast Foods, </a><a href="#">Vegetable</a>
+  						 			</div>
+  						 			<div class="product-name">
+  						 				<h2><a href="#">Cras neque honcus consectetum</a></h2>
+  						 			</div>
+  						 			<div class="price-box">
+  						 				<div class="price-box-inner">
+  						 					<del><span class="price-amount amount">
+  						 						<span class="price-currencysymbol">$</span>68.00
+  						 					</span></del>
+  						 					<ins><span class="price-amount amount">
+  						 						<span class="price-currencysymbol">$</span>60.00
+  						 					</span></ins>
+  						 				</div>
+  						 			</div>
+  						 		</div>
+  						 	</div>
+  						 	<div class="overlay">
+  						 		<div class="icon">
+  						 			<i class="fa fa-shopping-cart tooltip"><span class="tooltip-text">Add to card</span></i>
+  						 			<i class="fa fa-heart-o tooltip"><span class="tooltip-text">Add to wishlist</span></i>
+  						 			<i class="fa fa-exchange tooltip"><span class="tooltip-text">Compare</span></i>
+  						 			<i class="fa fa-search tooltip"><span class="tooltip-text">Quick View</span></i>
+  						 		</div>
+  						 	</div>
+  						 </div>
+  						 <div class="product product-01">
+  						 	<a href="#"><img class="img_change4" src="asset/images/product05-350x350.jpg"></a>
+  						 	<a href="#" class="btn">SALE!</a>
+  						 	<div class="product-caption">
+  						 		<div class="product-inside">
+  						 			<div class="product-categories">
+  						 				<a href="#">Fast Foods, </a><a href="#">Vegetable</a>
+  						 			</div>
+  						 			<div class="product-name">
+  						 				<h2><a href="#">Cras neque honcus consectetum</a></h2>
+  						 			</div>
+  						 			<div class="price-box">
+  						 				<div class="price-box-inner">
+  						 					<del><span class="price-amount amount">
+  						 						<span class="price-currencysymbol">$</span>68.00
+  						 					</span></del>
+  						 					<ins><span class="price-amount amount">
+  						 						<span class="price-currencysymbol">$</span>60.00
+  						 					</span></ins>
+  						 				</div>
+  						 			</div>
+  						 		</div>
+  						 	</div>
+  						 	<div class="overlay">
+  						 		<div class="icon">
+  						 			<i class="fa fa-shopping-cart tooltip"><span class="tooltip-text">Add to card</span></i>
+  						 			<i class="fa fa-heart-o tooltip"><span class="tooltip-text">Add to wishlist</span></i>
+  						 			<i class="fa fa-exchange tooltip"><span class="tooltip-text">Compare</span></i>
+  						 			<i class="fa fa-search tooltip"><span class="tooltip-text">Quick View</span></i>
+  						 		</div>
+  						 	</div>
+  						 </div>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+    <div class="show-product">
+      <div class="container">
+        <div class="row ribbon-2">
+        <div class="seller-title">
+            <h5>UPSELL PRODUCTS</h5>
+          </div>
+          <div class="ribbon-1 ribbon"></div>
+          <div class="product-01-slider">
+               <div class="product product-01">
+                <a href="#"><img class="upsell1" src="asset/images/product04-350x350.jpg"></a>
+                <a href="#" class="btn">SALE!</a>
+                <div class="product-caption">
+                  <div class="product-inside">
+                    <div class="product-categories">
+                      <a href="#">Fast Foods, </a><a href="#">Vegetable</a>
+                    </div>
+                    <div class="product-name">
+                      <h2><a href="#">Cras neque honcus consectetum</a></h2>
+                    </div>
+                    <div class="price-box">
+                      <div class="price-box-inner">
+                        <del><span class="price-amount amount">
+                          <span class="price-currencysymbol">$</span>68.00
+                        </span></del>
+                        <ins><span class="price-amount amount">
+                          <span class="price-currencysymbol">$</span>60.00
+                        </span></ins>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="overlay">
+                  <div class="icon">
+                    <i class="fa fa-shopping-cart tooltip"><span class="tooltip-text">Add to card</span></i>
+                    <i class="fa fa-heart-o tooltip"><span class="tooltip-text">Add to wishlist</span></i>
+                    <i class="fa fa-exchange tooltip"><span class="tooltip-text">Compare</span></i>
+                    <i class="fa fa-search tooltip"><span class="tooltip-text">Quick View</span></i>
+                  </div>
+                </div>
+               </div>
+               <div class="product product-01">
+                <a href="#"><img class="upsell2" src="asset/images/product14-350x350.jpg"></a>
+                <a href="#" class="btn">SALE!</a>
+                <div class="product-caption">
+                  <div class="product-inside">
+                    <div class="product-categories">
+                      <a href="#">Fast Foods, </a><a href="#">Vegetable</a>
+                    </div>
+                    <div class="product-name">
+                      <h2><a href="#">Cras neque honcus consectetum</a></h2>
+                    </div>
+                    <div class="price-box">
+                      <div class="price-box-inner">
+                        <del><span class="price-amount amount">
+                          <span class="price-currencysymbol">$</span>68.00
+                        </span></del>
+                        <ins><span class="price-amount amount">
+                          <span class="price-currencysymbol">$</span>60.00
+                        </span></ins>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="overlay">
+                  <div class="icon">
+                    <i class="fa fa-shopping-cart tooltip"><span class="tooltip-text">Add to card</span></i>
+                    <i class="fa fa-heart-o tooltip"><span class="tooltip-text">Add to wishlist</span></i>
+                    <i class="fa fa-exchange tooltip"><span class="tooltip-text">Compare</span></i>
+                    <i class="fa fa-search tooltip"><span class="tooltip-text">Quick View</span></i>
+                  </div>
+                </div>
+               </div>
+               <div class="product product-01">
+                <a href="#"><img class="upsell3" src="asset/images/product03-350x350.jpg"></a>
+                <a href="#" class="btn">SALE!</a>
+                <div class="product-caption">
+                  <div class="product-inside">
+                    <div class="product-categories">
+                      <a href="#">Fast Foods, </a><a href="#">Vegetable</a>
+                    </div>
+                    <div class="product-name">
+                      <h2><a href="#">Cras neque honcus consectetum</a></h2>
+                    </div>
+                    <div class="price-box">
+                      <div class="price-box-inner">
+                        <del><span class="price-amount amount">
+                          <span class="price-currencysymbol">$</span>68.00
+                        </span></del>
+                        <ins><span class="price-amount amount">
+                          <span class="price-currencysymbol">$</span>60.00
+                        </span></ins>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="overlay">
+                  <div class="icon">
+                    <i class="fa fa-shopping-cart tooltip"><span class="tooltip-text">Add to card</span></i>
+                    <i class="fa fa-heart-o tooltip"><span class="tooltip-text">Add to wishlist</span></i>
+                    <i class="fa fa-exchange tooltip"><span class="tooltip-text">Compare</span></i>
+                    <i class="fa fa-search tooltip"><span class="tooltip-text">Quick View</span></i>
+                  </div>
+                </div>
+               </div>
+               <div class="product product-01">
+                <a href="#"><img class="upsell4" src="asset/images/product13-350x350.jpg"></a>
+                <a href="#" class="btn">SALE!</a>
+                <div class="product-caption">
+                  <div class="product-inside">
+                    <div class="product-categories">
+                      <a href="#">Fast Foods, </a><a href="#">Vegetable</a>
+                    </div>
+                    <div class="product-name">
+                      <h2><a href="#">Cras neque honcus consectetum</a></h2>
+                    </div>
+                    <div class="price-box">
+                      <div class="price-box-inner">
+                        <del><span class="price-amount amount">
+                          <span class="price-currencysymbol">$</span>68.00
+                        </span></del>
+                        <ins><span class="price-amount amount">
+                          <span class="price-currencysymbol">$</span>60.00
+                        </span></ins>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="overlay">
+                  <div class="icon">
+                    <i class="fa fa-shopping-cart tooltip"><span class="tooltip-text">Add to card</span></i>
+                    <i class="fa fa-heart-o tooltip"><span class="tooltip-text">Add to wishlist</span></i>
+                    <i class="fa fa-exchange tooltip"><span class="tooltip-text">Compare</span></i>
+                    <i class="fa fa-search tooltip"><span class="tooltip-text">Quick View</span></i>
+                  </div>
+                </div>
+               </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="footer col-sm-12">
+    <div class="footer-inner">
+      <div class="container">
+        <div class="row">
+          <div class="newsletter-title col-sm-12 col-md-4 col-lg-4">
+            <div class="message-icon"><i class="fa fa-envelope-o "></i></div>
+            <div class="content-element">
+              <h3>Send Newsletter</h3>
+            </div>
+          </div>
+          <div class="newsletter-form col-sm-12 col-md-8 col-lg-8">
+            <div class="form-content col-sm-4">
+              <p>Sign up for our newsletter to get up to data from us</p>
+            </div>
+            <div class="form col-sm-8">
+              <form class="input-button">
+                <div class="form-field">
+                  <input type="email" name="EMAIL" placeholder="Your email address...." required="">
+                  <button class="sub-btn" type="submit">SUBSCRIBE!</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-02 col-sm-12">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-4 col-xs-12">
+        <div class="about">
+          <div class="about-header">
+              <div class="about-caption">
+                <h4 class="info-title">INFORMATION</h4>
+              </div>
+            </div>
+            <div class="info-bottom">
+              <ul>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">DELIVERY INFORMATION</a></li>
+                <li><a href="#">PRIVACY POLICY</a></li>
+                <li><a href="#">GIFT VOUCHERS</a></li>
+                <li><a href="#">TERMS & CONDITIONS</a></li>
+              </ul>
+            </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4 col-xs-12">
+        <div class="solution">
+          <div class="solution-header">
+              <div class="solution-caption">
+                <h4 class="solution-title">CUSTOMER SERVICE</h4>
+              </div>
+            </div>
+            <div class="menu-bottom">
+              <ul>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#">OUR SERVICE</a></li>
+                <li><a href="#">RETURNS</a></li>
+                <li><a href="#">SITE MAP</a></li>
+                <li><a href="">SHOPPING CARD</a></li>
+              </ul>
+            </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4 col-xs-12">
+        <div class="footer-social">
+          <div class="social-header">
+            <div class="social-caption">
+              <h4 class="social-title">FOLLOW US</h4>
+            </div>
+          </div>
+          <div class="social-icon">
+            <a href="#" class="btn"><span class="fa fa-facebook"></span></a>
+            <a href="#" class="btn"><span class="fa fa-twitter"></span></a>
+            <a href="#" class="btn"><span class="fa fa-google"></span></a>
+            <a href="#" class="btn"><span class="fa fa-linkedin"></span></a>
+            <a href="#" class="btn"><span class="fa fa-pinterest"></span></a>
+            <a href="#" class="btn"><span class="fa fa-youtube"></span></a>
+            <a href="#" class="btn"><span class="fa fa-flickr"></span></a>
+            <a href="#" class="btn"><span class="fa fa-behance"></span></a>
+          </div>
+        </div>
+         <div class="payment">
+          <div class="payment-header">
+            <div class="payment-caption">
+              <h4 class="payment-title">PAYMENT SYSTEM</h4>
+            </div>
+          </div>
+           <div class="payment-text">
+             <p>Allow payment base on</p>
+             <img src="asset/images/payment-icon1.png">
+           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="copyright col-sm-12">
+  <div class="container">
+    <div class="row">
+    <div class="text-center">
+      All Rights Reserved &copy 
+    </div>
+    </div>
+  </div>  
+  
+</div>
+
+  <script src="asset/js/jquery-2.1.3.min.js"></script>
+  <script src="asset/bootstrap/js/bootstrap.min.js"></script>
+  <script src="asset/js/bootsnav.js"></script>
+  <script src="asset/js/owl.carousel.min.js"></script>
+  <script src="asset/js/wow.min.js"></script>
+  <script src="asset/js/jquery.slicknav.min.js"></script>
+  <script src="asset/js/ajaxchimp.js"></script>
+  <script src="asset/js/ajaxchimp-config.js"></script> 
+  
+  <!---z-zoomplugin----->
+  <script src="asset/js/easyzoom.min.js"></script>
+  <script>
+    new WOW().init(); 
+</script>
+</body>
+</html>
